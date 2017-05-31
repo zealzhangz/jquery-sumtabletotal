@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>SumTableTotal</title>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../src/jquery.sumtabletotal.js"></script>
 
     <script src="total.js"></script>
@@ -49,7 +49,7 @@
                 </tr>
                 <tr>
                     <td>Edelbrock Intake Manifold Gasket Set</td>
-                    <td>America</td>
+                    <td>China</td>
                     <td>2017-05-30 22:50:53</td>
                     <td>80.00</td>
                     <td>161.00</td>
@@ -61,7 +61,7 @@
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1">
-        <button class="btn btn-success" id="button1">Calculating</button>
+        <button class="btn btn-success" id="button1">Calculate</button>
     </div>
 </div>
 <br/>
@@ -102,7 +102,7 @@
                 </tr>
                 <tr>
                     <td>Edelbrock Intake Manifold Gasket Set</td>
-                    <td>America</td>
+                    <td>China</td>
                     <td>2017-05-30 22:50:53</td>
                     <td>80.00</td>
                     <td>161.00</td>
@@ -114,7 +114,60 @@
         </div>
     </div>
     <div class="col-md-6 col-md-offset-1">
-        <button class="btn btn-danger" id="button2">Calculating</button>
+        <button class="btn btn-danger" id="button2">Calculate</button>
+    </div>
+</div>
+<br/>
+<div class="row">
+    <div class="col-md-8 col-md-offset-1">
+        <div class=" panel panel-primary">
+            <div class="panel-heading">Test Table 3</div>
+            <table class="table table-bordered table-hover" id="table3">
+                <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Origin place</th>
+                    <th>Date time</th>
+                    <th>Cost</th>
+                    <th>Selling price</th>
+                    <th>Gross</th>
+                    <th>Gross margin</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>K&N Oil Filter</td>
+                    <td>China</td>
+                    <td>2017-05-30 22:50:53</td>
+                    <td>60.00</td>
+                    <td>96.00</td>
+                    <td>36.00</td>
+                    <td>37.50%</td>
+                </tr>
+                <tr>
+                    <td>Mr. Gasket Water Outlet Gasket</td>
+                    <td>America</td>
+                    <td>2017-05-30 22:50:53</td>
+                    <td>18.00</td>
+                    <td>36.00</td>
+                    <td>18.00</td>
+                    <td>50.00%</td>
+                </tr>
+                <tr>
+                    <td>Edelbrock Intake Manifold Gasket Set</td>
+                    <td>China</td>
+                    <td>2017-05-30 22:50:53</td>
+                    <td>80.00</td>
+                    <td>161.00</td>
+                    <td>81.00</td>
+                    <td>50.31%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-6 col-md-offset-1">
+        <button class="btn btn-primary" id="button3">Calculate</button>
     </div>
 </div>
 </body>

@@ -1,3 +1,11 @@
+/*
+ *  jQuery sumtabletotal - v0.0.1
+ *  jQuery plugin to sum total and append total row for an HTML table
+ *  https://github.com/zealzhangz/jquery-sumtabletotal
+ *
+ *  Made by zealzhangz
+ *  Under MIT License
+ */
 //sumtabletotal.js
 
 if (typeof jQuery === "undefined") {
