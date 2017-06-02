@@ -26,7 +26,7 @@ Install `bower` globally
 npm install -g bower
 ```
 
-Install jquery-table2excel and dependencies
+Install jquery-sumtabletotal and dependencies
 ```
 bower install jquery-sumtabletotal --save
 ```
