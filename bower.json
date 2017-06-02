@@ -2,6 +2,9 @@
   "name": "jquery-sumtabletotal",
   "description": "jQuery plugin to sum total and append total row for an HTML table",
   "main": "dist/jquery.sumtabletotal.js",
+  "dependencies": {
+    "jquery": ">=1.4"
+  },
   "authors": [
     "zealzhangz"
   ],

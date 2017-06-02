@@ -35,6 +35,7 @@ Include jquery and sumtabletotal in your page
 ```html
 <script src="bower_components\jquery\dist\jquery.min.js"></script>
 <script src="bower_components\jquery-sumtabletotal\dist\jquery.sumtabletotal.min.js"></script>
+```
 
 ## Using the plugin
 ```javascript
@@ -43,3 +44,34 @@ $("#yourHtmTable").sumtabletotal({
      rateObjectArry: [{numerator: 5, denominator: 4, index: 6}]//Object of calculated percentage,'index' represent the place to save percentage.
 });
 ```
+#### [demo/](https://github.com/zealzhangz/jquery-sumtabletotal/tree/master/demo)
+
+Contains a simple HTML file to demonstrate your plugin.
+
+#### [dist/](https://github.com/zealzhangz/jquery-sumtabletotal/tree/master/dist)
+
+This is where the generated files are stored once Grunt runs.
+
+#### [.jshintrc](https://github.com/zealzhangz/jquery-sumtabletotal/blob/master/.jshintrc)
+
+List of rules used by JSHint to detect errors and potential problems in JavaScript.
+
+#### [Gruntfile.js](https://github.com/zealzhangz/jquery-sumtabletotal/blob/master/Gruntfile.js)
+
+Contains all automated tasks using Grunt.
+
+#### [package.json](https://github.com/zealzhangz/jquery-sumtabletotal/blob/master/package.json)
+
+Specify all dependencies loaded via Node.JS.
+
+## Contributing
+
+Check [CONTRIBUTING.md](https://github.com/zealzhangz/jquery-sumtabletotal/blob/master/CONTRIBUTING.md)
+
+## History
+
+Check [Release](https://github.com/zealzhangz/jquery-sumtabletotal/releases) list.
+
+## License
+
+[MIT License](http://zenorocha.mit-license.org/)
