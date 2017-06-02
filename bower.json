@@ -1,0 +1,22 @@
+{
+  "name": "jquery-sumtabletotal",
+  "description": "jQuery plugin to sum total and append total row for an HTML table",
+  "main": "dist/jquery.sumtabletotal.js",
+  "authors": [
+    "zealzhangz"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "sumtabletotal"
+  ],
+  "homepage": "https://github.com/zealzhangz/jquery-sumtabletotal",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
