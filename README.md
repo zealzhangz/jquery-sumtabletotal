@@ -1,4 +1,6 @@
-# jQuery SumTableTotal Plugin by zealzhangz (https://github.com/zealzhangz/SumTableTotal)
+# jQuery sumtabletotal Plugin by zealzhangz (https://github.com/zealzhangz/jquery-sumtabletotal)
+
+![jquery-sumtabletotal](https://github.com/zealzhangz/jquery-sumtabletotal/blob/master/readme-gif.gif)
 
 # DISCLAIMER
 This plugin a simple calculated total value for HTML table.The plugin was developed against Chrome.Because of the HTML table which can be combined in many different ways.The following table will work fine.Other types table may not work so well.
