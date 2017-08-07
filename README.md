@@ -76,4 +76,4 @@ Check [Release](https://github.com/zealzhangz/jquery-sumtabletotal/releases) lis
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/)
+[MIT License](http://zealzhangz.mit-license.org/)
